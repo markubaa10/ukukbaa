@@ -1,0 +1,94 @@
+*{
+margin: 0px;
+padding: 0px;
+font-family: sans-serif;
+box-sizing: border-box;
+background-image: url(map.png);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+header{
+background-color: black;
+
+}
+.hero{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+}
+.hero ul{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style: none;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+a{
+text-decoration: none;
+}
+li a{
+padding: 20px;
+}
+.main ul{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style: none;
+color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+background-color: aquamarine;
+}
+a{
+text-decoration: none;
+}
+li a{
+padding: 20px;
+}
+h1{
+padding-left: 30px;
+}
+.p-2{
+
+padding-left: 20px;
+align-items: flex-end;
+
+}
+img{
+border-radius: 60px;
+}
+
+p-4{
+    color: darkblue;
+    background-color: whitesmoke;
+}
+
+.antelopes{
+    align-items: center;
+    background-color: darkgrey;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+}
+
+.visit{
+background-color: de;
+
+}
+
+.parts{
+    background-color: darkslateblue;
+}
+.parts ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    list-style-type: none;
+    padding: 0%;
+}
